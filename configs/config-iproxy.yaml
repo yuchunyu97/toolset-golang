@@ -1,0 +1,9 @@
+iproxy:
+  regionId: cn-qingdao # 阿里云容器镜像服务 regionId
+  accessKeyId: aliyun-access-key-id # 阿里云 AccessKey ID
+  accessKeySecret: aliyun-access-key-secret # 阿里云 AccessKey Secret
+  repoNamespace: aliyun-acr-namespace # 阿里云容器镜像服务命名空间
+  repoName: aliyun-acr-repo-name # 阿里云容器镜像服务镜像仓库
+  gitPath: https://code.aliyun.com/yuchunyu97/autobuild.git # 代码仓库地址，需要与镜像仓库关联
+  gitUsername: git-username # 代码仓库用户名
+  gitPassword: git-password # 代码仓库密码
